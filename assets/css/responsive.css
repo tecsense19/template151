@@ -1,0 +1,522 @@
+@media (min-device-width: 100px) and (max-device-width: 767px){
+
+    html{
+        overflow-x: hidden;;
+    }
+
+	.mianbutton {
+    display: none;
+}
+
+	.navbar .mobileshow {
+    opacity: 0;
+}
+.mobileshow {
+    position: absolute;
+/*    padding: 25px;*/
+    width: 100%;
+    top: 0;
+    background: #000000;
+    border-radius: 0px;
+    display: block;
+}
+.navbar-mobile .mobileshow {
+    opacity: 1;
+        padding: 0 15px;
+}
+.mobileshow .social2 {
+    display: block;
+   margin-bottom: 15px;
+}
+.social2 {
+    /*padding: 0 10px;
+    padding-right: 10px;*/
+}
+.language {
+    padding-left: 0;
+    margin-bottom: 15px;
+}
+
+.social2 {
+    margin-right: 0;
+}
+.mobileshow .social1 {
+    display: block;
+    margin-bottom: 10px;
+}
+.mobileshow .language {
+    display: block;
+/*    padding: 6px 20px;*/
+}
+nav#navbar {
+    left: -260px;
+}
+
+img{
+    max-width: 100%
+}
+
+#hero{
+    height: unset;
+}
+
+section.financial {
+    margin-top: -205px;
+    margin-top: 0;
+    z-index: 111;
+    position: relative;
+    margin-left: 0;
+}
+#main-brand{
+    padding: 50px;
+}
+.financial-main h2{
+    font-size: 25px;
+    line-height: 35px;
+}
+.indust ul {
+    padding: 0;
+    display: block;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+br{
+        display: none;
+}
+.indust {
+    text-align: center;
+}
+.indust ul li p{
+        padding-right: 0;
+}
+.indust ul li{
+        margin-right: 0;
+}
+.indust li img {
+    margin-bottom: 15px;
+}
+section.create {
+    padding: 50px 0;
+}
+.create_text {
+    padding: 25px 0;
+}
+.create_text h2{
+        margin-bottom: 10px;
+            line-height: 25px;
+                margin-bottom: 15px;
+                    margin-top: 25px;
+                    font-size: 25px;
+}
+.create_text {
+    padding: 0px 0;
+}
+.specimen {
+        padding: 50px 0;
+}
+.specimen_text {
+    margin-top: 25px;
+}
+section.company_main {
+    padding: 50px 0;
+}
+.company_heading h2{
+        font-size: 25px;
+    line-height: 35px;
+}
+.company_main .company {
+    display: block;
+    align-items: center;
+}
+.testimonial-name {
+    display: inline-block;
+    position: absolute;
+    top: 80px;
+    right: 0px;
+    text-align: center;
+    margin: 0 auto;
+}
+.content {
+    padding-top: 0;
+}
+.testtext {
+    margin-top: 25px;
+    padding: 0;
+}
+.centuries_section{
+    padding: 50px 0;
+}
+.centuries_headding h2{
+        font-size: 25px;
+    line-height: 42px;
+        padding: 15px 0;
+}
+.all_button {
+    display: block;
+    justify-content: space-between;
+    padding-bottom: 0;
+}
+a.btn-mobile{
+        width: 100%;
+}
+.download-btn {
+    text-align: center;
+    background: #272e35;
+        margin-bottom: 10px;
+            border-radius: 10px;
+}
+section.pricing_section {
+    padding: 50px 0;
+}
+.pricing_headdding h2{
+        font-size: 25px;
+    line-height: 25px;
+}
+.pricing-card.basic {
+    margin-bottom: 15px;
+}
+section.works_section{
+    padding: 50px 0;
+}
+.works_headding h2{
+        font-size: 25px;
+    line-height: 25px;
+}
+#works_btn {
+    padding-top: 0;
+}
+#works_btn {
+    padding-top: 0;
+    padding-bottom: 50px;
+}
+.qna {
+    padding: 10px;
+}
+.question{
+        font-size: 16px;
+}
+#newcenturies_section .centuries_img {
+    margin-left: 0;
+}
+.priv {
+    display: block;
+    justify-content: space-between;
+}
+.footermobile {
+        display: block;
+    margin-top: 25px;
+}
+.footerdektop {
+    display: none;
+}
+footer#footer{
+        padding-top: 50px;
+}
+.logotext p a{
+        margin-bottom: 15px;
+    display: inline-block;
+}
+div#footer1 {
+    padding-bottom: 0;
+    position: relative;
+}
+.copyright {
+    margin-top: 0;
+    /* border-top: 1px solid #494949; */
+    padding: 0;
+}
+.copyright img {
+    text-align: right;
+    float: left;
+    margin-bottom: 25px;
+}
+div#footer4 {
+    margin-top: 0px;
+}
+.footer-warning {
+    margin-bottom: 50px;
+}
+header#header .container {
+        justify-content: space-between;
+}
+.me-auto {
+    margin-right: unset !important;
+}
+}
+
+
+
+
+
+@media (min-device-width: 768px) and (max-device-width: 1024px) {
+
+
+    html{
+        overflow-x: hidden;;
+    }
+
+    .mianbutton {
+    /*display: none;*/
+}
+.mobileshow {
+    display: none !important;
+}
+.mianbutton {
+    /* margin-left: 200px; */
+    position: absolute;
+    right: 100px;
+}
+
+    .navbar .mobileshow {
+    opacity: 0;
+}
+.mobileshow {
+    position: absolute;
+/*    padding: 25px;*/
+    width: 100%;
+    top: 0;
+    background: #000000;
+    border-radius: 0px;
+    display: block;
+}
+.navbar-mobile ul{
+        top: 50px;
+}
+.navbar-mobile .mobileshow {
+    opacity: 1;
+    padding: 0 15px;
+}
+.mobileshow .social2 {
+    display: block;
+   margin-bottom: 15px;
+}
+.social2 {
+    padding: 0 10px;
+    padding-right: 10px;
+}
+.language {
+        padding-left: 10px;
+    margin-bottom: 0;
+}
+
+.social2 {
+    margin-right: 0;
+}
+.mobileshow .social1 {
+    display: block;
+    margin-bottom: 10px;
+}
+.mobileshow .language {
+    display: block;
+/*    padding: 6px 20px;*/
+}
+nav#navbar {
+    left: -260px;
+}
+
+img{
+    max-width: 100%
+}
+
+#hero{
+    height: unset;
+}
+
+section.financial {
+    margin-top: -205px;
+    margin-top: 0;
+    z-index: 111;
+    position: relative;
+    margin-left: 0;
+}
+#main-brand{
+    padding: 50px;
+}
+.financial-main h2{
+    font-size: 25px;
+    line-height: 35px;
+}
+.indust ul {
+        padding: 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+br{
+        display: none;
+}
+.indust {
+    text-align: center;
+}
+.indust ul li p{
+        padding-right: 0;
+}
+.indust ul li{
+        margin-right: 0;
+}
+.indust li img {
+    margin-bottom: 15px;
+        margin-right: 50px;
+}
+section.create {
+    padding: 50px 0;
+}
+.create_text {
+    padding: 25px 0;
+}
+.create_text h2{
+        margin-bottom: 10px;
+            line-height: 25px;
+                margin-bottom: 15px;
+                    margin-top: 25px;
+                    font-size: 25px;
+}
+.create_text {
+    padding: 0px 0;
+}
+.specimen {
+        padding: 50px 0;
+}
+.specimen_text {
+    margin-top: 25px;
+}
+section.company_main {
+    padding: 50px 0;
+}
+.company_heading h2{
+        font-size: 25px;
+    line-height: 35px;
+}
+.company_main .company {
+    display: flex;
+    align-items: center;
+}
+.testimonial-name {
+    display: inline-block;
+    position: absolute;
+    top: 80px;
+    right: 0px;
+    text-align: center;
+    margin: 0 auto;
+}
+.content {
+    padding-top: 50px;
+}
+.testtext {
+    margin-top: 25px;
+    padding: 0;
+}
+.centuries_section{
+    padding: 50px 0;
+}
+.centuries_headding h2{
+        font-size: 25px;
+    line-height: 42px;
+        padding: 15px 0;
+}
+.all_button {
+    display: block;
+    justify-content: space-between;
+    padding-bottom: 0;
+}
+a.btn-mobile{
+        width: 100%;
+}
+.download-btn {
+    text-align: center;
+    background: #272e35;
+        margin-bottom: 10px;
+            border-radius: 10px;
+}
+section.pricing_section {
+    padding: 50px 0;
+}
+.pricing_headdding h2{
+        font-size: 25px;
+    line-height: 25px;
+}
+.pricing-card.basic {
+    margin-bottom: 15px;
+}
+section.works_section{
+    padding: 50px 0;
+}
+.works_headding h2{
+        font-size: 25px;
+    line-height: 25px;
+}
+#works_btn {
+    padding-top: 0;
+}
+#works_btn {
+    padding-top: 0;
+    padding-bottom: 50px;
+}
+.qna {
+    padding: 10px;
+}
+.question{
+        font-size: 16px;
+}
+#newcenturies_section .centuries_img {
+    margin-left: 0;
+}
+.priv {
+    display: block;
+    justify-content: space-between;
+}
+.footermobile {
+        display: block;
+    margin-top: 25px;
+}
+.footerdektop {
+    display: none;
+}
+footer#footer{
+        padding-top: 50px;
+}
+.logotext p a{
+        margin-bottom: 15px;
+    display: inline-block;
+}
+div#footer1 {
+    padding-bottom: 0;
+    position: relative;
+}
+.copyright {
+    margin-top: 0;
+    /* border-top: 1px solid #494949; */
+    padding: 0;
+}
+.copyright img {
+    text-align: right;
+    float: left;
+    margin-bottom: 25px;
+}
+div#footer4 {
+    margin-top: 0px;
+}
+.footer-warning {
+    margin-bottom: 50px;
+}
+header#header .container {
+        justify-content: space-between;
+}
+.me-auto {
+    margin-right: unset !important;
+}
+div#create_img2 {
+    margin-top: 0px;
+}
+section.centuries_section .row {
+    display: flex;
+    align-items: center;
+}
+#newcenturies_section{
+        margin-top: 50px;
+            padding: 25px 0;
+}
+}
