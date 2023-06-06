@@ -226,7 +226,7 @@ button.owl-prev::after, button.owl-next::before{
         font-size: 25px;
     line-height: 42px;
         padding: 15px 0;
-            padding-left: 50px;
+            padding-left: 0px;
 }
 .centuries_headding {
     padding-left: 25px;
@@ -235,12 +235,14 @@ button.owl-prev::after, button.owl-next::before{
     display: block;
     justify-content: space-between;
     padding-bottom: 0;
-        width: 96%;
+        width: 97%;
 }
+
 .centuries_img {
     margin-left: 0;
     position: relative;
-    /* top: -40px; */
+     top: 0px; 
+         margin-top: 26px;
 }
 a.btn-mobile{
         width: 100%;
@@ -262,7 +264,13 @@ section.pricing_section {
     margin-bottom: 15px;
 }
 section.works_section{
-    padding: 50px 0;
+    padding: 50px 0 25px;
+}
+section#newcenturies_section h2 {
+    padding-left: 50px;
+}
+.centuries_headding p{
+        line-height: 31px;
 }
 .works_headding h2{
         font-size: 25px;
@@ -274,6 +282,9 @@ section.works_section{
 #works_btn {
     padding-top: 0;
     padding-bottom: 50px;
+}
+div#wsection {
+    margin-bottom: 0px;
 }
 .qna {
     padding: 10px;
@@ -296,6 +307,10 @@ section#newcenturies_section {
 .priv {
     display: block;
     justify-content: space-between;
+        margin-top: 50px;
+}
+#newcenturies_section .centuries_img img {
+    max-width: 95%;
 }
 .footermobile {
         display: block;
@@ -420,7 +435,7 @@ img{
 }
 
 section.financial {
-    margin-top: -150px;
+    margin-top: -170px;
 }
 
 section.financial {
@@ -428,7 +443,7 @@ section.financial {
 /*    margin-top: 0;*/
     z-index: 111;
     position: relative;
-    margin-left: 50px;
+    margin-left: 100px;
 }
 #main-brand{
     padding: 50px;
@@ -458,8 +473,9 @@ br{
         margin-right: 0;
 }
 .indust li img {
-    margin-bottom: 15px;
-        margin-right: 50px;
+        margin-bottom: 15px;
+    margin-right: 100px;
+    padding-right: 11px;
 }
 section.create {
     padding: 50px 0;
@@ -469,13 +485,17 @@ section.create {
 }
 .create_text h2{
         margin-bottom: 10px;
-            line-height: 25px;
+            line-height: 40px;
                 margin-bottom: 15px;
-                    margin-top: 25px;
-                    font-size: 25px;
+                    margin-top: 0px;
+/*                    font-size: 25px;*/
 }
 .create_text {
     padding: 0px 0;
+}
+.specimen_img img {
+    max-width: 100%;
+    width: 100%;
 }
 .specimen {
         padding: 50px 0;
@@ -629,5 +649,29 @@ section.centuries_section .row {
     max-width: 100%;
     position: absolute;
     top: -40px;
+}
+
+section#desktopview {
+    display: none ;
+}
+section#ipedview {
+    display: block;
+        background: url(../image/a8.png);
+            background-size: cover;
+    background-repeat: no-repeat;
+        margin-left: 22px;
+}
+section#ipedview .centuries_img {
+    margin-left: 0px;
+    position: relative;
+    top: 0;
+}
+
+
+section#ipedview h2 {
+    padding-right: 50px;
+}
+section#ipedview p {
+    padding-right: 150px;
 }
 }
