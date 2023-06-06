@@ -1,0 +1,772 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
+/*--------------- Accounts Page Start -----------*/
+.banner_comman {
+    width: 100%;
+    background: #2C353D;
+    padding: 160px 0px 91px;
+    background-image: url(../assets/image/Mask-group6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.banner_comman_text {
+    width: 100%;
+}
+
+.banner_comman_text h2 {
+    font-size: 38px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.banner_comman_text ul {
+    margin: 0;
+    padding: 0;
+}
+
+.banner_comman_text ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.banner_comman_text ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.price_section {
+    padding-top: 196px;
+    padding-bottom: 174px;
+}
+
+.work_section {
+    background: url("../assets/image/Mask-group5.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #2C353D;
+    padding: 166px 0px 187px;
+    background-position: center;
+}
+
+.work_headding {
+    max-width: 670px;
+    margin: auto;
+}
+
+.work_headding h2 {
+    font-family: 'Comfortaa', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 42px;
+    letter-spacing: 0.04em;
+    color: #272E35;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.work_headding p {
+    font-family: 'Comfortaa', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #555B61;
+}
+
+.financial_section {
+    margin-top: 0px !important;
+    margin-top: 0px;
+    z-index: 111;
+    position: relative;
+    margin-left: 100px;
+}
+
+/*--------------- Accounts Page End -----------*/
+
+
+
+/*--------------- Platform Page Start -----------*/
+
+.type_specimen_text h2 {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.type_specimen_text p {
+    font-size: 18px;
+    color: #D9D9D9;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.survived {
+    background: url("../assets/image/Mask-group6.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.survived_bg {
+    background: #FFD683;
+    padding: 120px 0px;
+    max-width: 1547px;
+}
+
+/*--------------- Platform Page End -----------*/
+
+/*--------------- Markets Page Start -----------*/
+
+.main_create {
+    max-width: 945px;
+    margin: auto;
+}
+
+.work_width {
+    max-width: 670px;
+    margin: auto;
+}
+
+/*--------------- Markets Page End -----------*/
+
+/*--------------- Exchange Page Start -----------*/
+
+.ticker {
+    padding: 100px 0px 180px;
+}
+
+.ticker_img {
+    width: 100%;
+}
+
+.ticker_img img {
+    width: 100%;
+}
+
+/*--------------- Exchange Page End -----------*/
+
+/*--------------- Company Page Start -----------*/
+
+.create.business {
+    padding-bottom: 176px;
+}
+
+/*--------------- Company Page End -----------*/
+
+
+
+/*--------------------------------------------------------------
+# ACCOUNT TYPE  PAGE START
+--------------------------------------------------------------*/
+.price_box {
+    border: 1px solid #FFC247;
+    padding: 50px 30px;
+    border-radius: 0px 40px 40px 40px;
+}
+
+.price_box h2 {
+    font-size: 38px;
+    color: #272E35;
+    font-weight: 700;
+    border-bottom: 1px solid #FFC247;
+    padding-bottom: 24px;
+    margin: 0;
+}
+
+.price_box h3 {
+    font-size: 38px;
+    color: #272E35;
+    font-weight: 700;
+    margin-top: 24px;
+}
+
+.price_box span {
+    font-size: 18px;
+    color: #555B61;
+    font-weight: 400;
+    padding: 15px 0px;
+}
+
+.choose_plan {
+    background: #FFC247;
+    border-radius: 6px;
+    padding: 16px 58px;
+    font-size: 18px;
+    color: #272E35;
+    text-decoration: none;
+    display: inline-block;
+    margin: 30px 0px;
+}
+
+.price_box:hover {
+    background: #2C353D;
+    padding-top: -30px;
+}
+
+.price_box:hover {
+    background-color: #272E35;
+    transform: translateY(-50px) scale(1.02);
+    transition: all 0.5s ease;
+    border: 1px solid #272E35;
+}
+
+.price_box:hover h2 {
+    color: #fff;
+    border-color: #C1BFBE;
+}
+
+.price_box:hover span {
+    color: #fff;
+}
+
+.price_box:hover .choose_plan {
+    background: #C1BFBE;
+    color: #272E35;
+}
+
+.price_box:hover h3 {
+    color: #fff;
+}
+
+/*--------- Thank You Page ---------*/
+
+.thank_you {
+    width: 100%;
+    background: url(../assets/image/Group2.png);
+    position: relative;
+    background-size: cover;
+    background-color: #2C353D;
+    padding-top: 110px;
+}
+
+.thank_you {
+    width: 100%;
+}
+
+.thank_you ul {
+    margin: 0;
+    padding: 0;
+}
+
+.thank_you ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.thank_you ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.thank_text h2 {
+    font-size: 38px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 124px;
+    margin-bottom: 30px;
+}
+
+.thank_text p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.back_home {
+    font-size: 18px;
+    font-weight: 400;
+    color: #272E35;
+    text-decoration: none;
+    padding: 10px 24px;
+    display: inline-block;
+    background: #FFC247;
+    border-radius: 6px;
+}
+
+.back_home:hover {
+    background: #C1BFBE;
+    color: #272E35;
+}
+
+@media ( max-width: 991px ){
+    .thank_text h2 {
+        font-size: 26px;
+        margin-top: 80px;
+        margin-bottom: 20px;
+    }
+}
+
+/*------------- Registration --------- */
+
+.registration_section {
+    width: 100%;
+    background: #2C353D;
+    padding: 159px 0px 89px;
+    background-image: url(../assets/image/Mask-group6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.registration_bg {
+    background: url("../assets/image/Mask-group4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #2C353D;
+    padding-top: 102px;
+    padding-bottom: 100px;
+}
+
+.ensures {
+    margin-top: -50px;
+}
+
+.deposit {
+    margin-top: 130px;
+}
+
+.registration {
+    width: 100%;
+}
+
+.registration_headding {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.regiter {
+    background: #FFC247;
+    width: 26px;
+    height: 26px;
+    border-radius: 20px;
+}
+
+.regiter_text {
+    padding-left: 15px;
+    width: 90%;
+}
+
+.regiter_text h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.regiter_text p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.registration_form {
+    background: #fff;
+    padding: 50px;
+    border-radius: 0px 140px 0px 0px;
+    border: 2px solid #FFC247;
+}
+
+.registration_form h3 {
+    font-size: 28px;
+    color: #272E35;
+    font-weight: 700;
+    text-align: center;
+}
+
+.register_form {
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.register_form label {
+    font-size: 18px;
+    color: #272E35;
+    font-weight: 400;
+}
+
+.register_form input {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 5px;
+}
+
+.register_form select {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 5px;
+} 
+
+.register_form textarea {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 5px;
+}
+
+.checkbox_form input {
+    width: 20px;
+    margin-top: 10px;
+    height: 18px;
+}
+
+.checkbox_form label {
+    font-size: 18px;
+    color: #272E35;
+    font-weight: 400;
+}
+
+.checkbox_form span {
+    color: #FFC247;
+}
+
+.regiter_btn {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.regiter_btn a {
+    background: #FFC247;
+    border-radius: 6px;
+    padding: 15px 58px;
+    font-size: 18px;
+    color: #272E35;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.regiter_btn button {
+    background: #FFC247;
+    border-radius: 6px;
+    padding: 15px 58px;
+    font-size: 18px;
+    color: #272E35;
+    text-decoration: none;
+    display: inline-block;
+    border: 0;
+    margin: 0;
+}
+
+@media (max-width: 767px){
+    .registration_bg {
+        padding-top: 80px;
+    }
+
+    .deposit {
+        margin-top: 0px;
+    }
+
+    .registration_section {
+        padding: 100px 0px 70px;
+    }
+
+    .ensures {
+        margin-top: 0px;
+    }
+
+    .registration_form {
+        padding: 20px;
+        border-radius: 0px 80px 0px 0px;
+    }
+
+    .checkbox_form label {
+        font-size: 15px;
+    }
+
+    .registration_form h3 {
+        font-size: 22px;
+        text-align: start;
+    }
+}
+
+/*-------------- Contact Page -----------*/
+
+.contact_us {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.contact_text {
+    width: 80%;
+}
+
+.contact_text h3 {
+    font-size: 22px;
+    color: #FFC247;
+    font-weight: 700;
+}
+
+.contact_text p {
+    color: #fff;
+    font-size: 18px;
+}
+
+.contact_text a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.contact_text a:hover {
+    color: #FFC247;
+}
+
+.contact_icon {
+    width: 15%;
+}
+
+.contact_icon img {
+    width: 70%;
+}
+
+.substantial {
+    margin-top: 157px;
+}
+
+/*------------ Tranding Hours ----------*/
+.trading_hours {
+    padding-bottom: 150px;
+    padding-top: 74px;
+}
+
+.hours_box {
+    border: 1px solid #FFC247;
+    border-radius: 20px;
+    background: #FFFFFF;
+    max-width: 856px;
+    margin: auto;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.hours_headding {
+    background: #FFC247;
+    border-radius: 17px 17px 0px 0px;
+    padding: 12px;
+    text-align: center;
+}
+
+.across {
+    text-align: center;
+}
+
+.across h2 {
+    font-size: 38px;
+    color: #272E35;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.across p {
+    font-size: 18px;
+    color: #555B61;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.hours_headding h3 {
+    font-size: 28px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.hours_box table {
+    width: 100%;
+    margin: 10px 30px;
+}
+
+.hours_box table tbody tr td {
+    font-size: 18px;
+    color: #555B61;
+    padding: 13px 0;
+}
+
+/*---------- Tranding Faqs -----------*/
+.faqs_section {
+    padding-top: 100px;
+    padding-bottom: 110px;
+}
+
+.faqs_box {
+    border: 1px solid #FFC247;
+    border-radius: 20px;
+    padding: 24px 32px;
+    background: #fff;
+    margin-bottom: 24px;
+}
+
+.faqs_box a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+.faqs_box span {
+    font-size: 18px;
+    color: #272E35;
+}
+
+/*----------- Documents page ----------*/
+.document_section {
+    padding-top: 100px;
+    padding-bottom: 122px;
+}
+
+.document_box {
+    width: 100%;
+    padding: 30px 67px;
+    background: rgba(100, 128, 167, 0.3);
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.document_box a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+.document_box span {
+    font-size: 18px;
+    color: #272E35;
+}
+
+@media ( max-width: 1600px ){
+    .centuries_img img {
+        width: 100%;
+    }
+
+    .hero-img img {
+        width: 100%;
+    }
+}
+
+@media ( max-width: 991px ){
+    .choose_plan {
+        padding: 10px 25px;
+        font-size: 16px;
+        margin: 10px 0;
+    }
+    .price_box span {
+        font-size: 16px;
+    }
+    .price_box {
+        padding: 30px 10px;
+    }
+
+    .price_box h2 {
+        font-size: 26px;
+        padding-bottom: 10px;
+    }
+
+    .price_box h3 {
+        font-size: 26px; 
+        margin-top: 10px;       
+    }
+
+    .across h2 {
+        font-size: 26px;
+    }
+
+    .ticker {
+        padding: 50px 0px 100px;
+    }
+
+    .work_section {
+        padding: 100px 0px;
+    }
+
+    .work_headding h2 {
+        font-size: 26px;
+        padding-bottom: 20px;
+    }
+
+    .work_headding p {
+        font-size: 16px;
+    }
+}
+
+@media ( max-width: 767px ){
+    .price_box {
+        margin-bottom: 30px;
+    }
+
+    .choose_plan {
+        padding: 16px 25px;
+        font-size: 16px;
+    }
+
+    .trading_table {
+        overflow-x: auto;
+    }
+
+    .substantial {
+        margin-top: 0px;
+    }
+
+    .faqs_section {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+
+    .price_section {
+        padding-top: 100px;
+        padding-bottom: 120px;
+    }
+
+    .financial_section {
+        margin-left: 0;
+    }
+
+    .ticker {
+        padding: 50px 0px;
+    }
+
+   .banner_comman {
+        padding: 110px 0px 60px;
+    }
+
+    .work_section {
+        padding: 60px 0px;
+    }
+}
+
+@media ( max-width: 575px ){
+    .contact_us {
+        display: block;
+        margin-bottom: 50px;
+    }
+
+    .contact_text {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .document_box {
+        margin-bottom: 20px;
+        padding: 15px 20px;
+    }
+
+    .price_section {
+        padding-top: 80px;
+        padding-bottom: 100px;
+    }
+
+    .contact_icon img {
+        width: 100%;
+    }
+
+    .registration_bg {
+        padding-top: 20px;
+    }
+}
