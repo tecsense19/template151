@@ -228,8 +228,9 @@ button.owl-prev::after, button.owl-next::before{
         padding: 15px 0;
             padding-left: 0px;
 }
-.centuries_headding {
+section#desktopview .centuries_headding {
     padding-left: 25px;
+    padding-right: 25px;
 }
 .all_button {
     display: block;
@@ -242,7 +243,7 @@ button.owl-prev::after, button.owl-next::before{
     margin-left: 0;
     position: relative;
      top: 0px; 
-         margin-top: 26px;
+         margin-top: 29px;
 }
 a.btn-mobile{
         width: 100%;
@@ -352,6 +353,9 @@ header#header .container {
 }
 .me-auto {
     margin-right: unset !important;
+}
+section#newcenturies_section .centuries_headding {
+    padding: 0 25px;
 }
 }
 
@@ -657,7 +661,7 @@ section#desktopview {
 section#ipedview {
     display: block;
         background: url(../image/a8.png);
-            background-size: cover;
+            background-size: contain;
     background-repeat: no-repeat;
         margin-left: 22px;
 }
