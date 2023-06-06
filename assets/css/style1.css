@@ -970,7 +970,7 @@ button.owl-prev::after{
         font-size: 35px;
     position: absolute;
     
-    right: 43px;
+    right: 100px;
     top: -83px;
     transition: transform .2s; 
 }
@@ -986,7 +986,7 @@ button.owl-next::before{
     position: absolute;
     color: #B1B1B1;
         top: -83px;
-        right: 10px;
+        right: 50px;
         transition: transform .2s; 
 }
 button.owl-next:hover::before{
