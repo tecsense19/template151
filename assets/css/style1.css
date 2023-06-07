@@ -72,10 +72,11 @@ a.back-to-top.d-flex.align-items-center.justify-content-center.active {
 # Header
 --------------------------------------------------------------*/
 #header {
-/*  background: #fff;*/
-  transition: all 0.5s;
-  z-index: 997;
-  height: 90px;
+    /* background: #fff; */
+    transition: all 0.5s;
+    z-index: 997;
+    height: 90px;
+    background: #2c353d;
 }
 
 /*#header.header-transparent {
@@ -738,7 +739,8 @@ padding-right: 40px;
 
 
 section.create {
-    padding: 120px 0;
+    /* padding: 120px 0; */
+    padding: 100px 0px 90px;
 }
 
 .create_img img{
@@ -778,12 +780,13 @@ div#create_img2 {
 }
 
 
-.specimen{
- background:  url("../image/Mask-group2.png");
- background-size: cover;
- background-repeat: no-repeat;
- background-color:#2C353D;
- padding: 120px 0;
+.specimen {
+    background: url("../image/Mask-group2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #2C353D;
+    padding: 161px 0;
+    background-position: center;
 }
 
 .specimen_img img{
@@ -1002,7 +1005,7 @@ font-size: 38px;
 line-height: 53px;
 letter-spacing:0.04em;
 color: #272E35;
-    padding: 27px 0 20px 0;
+margin-bottom: 30px;
 }
 
 .centuries_headding p{
@@ -1210,11 +1213,11 @@ text-decoration: none;
 
 
 section.works_section {
-  background:  url("../image/Mask-group4.png");
- background-size: cover;
- background-repeat: no-repeat;
- background-color:#2C353D;
- padding: 120px 0;
+    background: url("../image/Mask-group4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #2C353D;
+    padding: 176px 0;
 }
 
 
@@ -1428,6 +1431,9 @@ color: #FFFFFF;
     margin: 0;
 }
 
+.footer-info {
+    padding-right: 20px;
+}
 
 .footer-links h4{
 font-family: 'Inter', sans-serif;
