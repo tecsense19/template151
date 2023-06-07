@@ -68,10 +68,11 @@ a.back-to-top.d-flex.align-items-center.justify-content-center.active {
 # Header
 --------------------------------------------------------------*/
 #header {
-/*  background: #fff;*/
-  transition: all 0.5s;
-  z-index: 997;
-  height: 90px;
+    /* background: #fff; */
+    transition: all 0.5s;
+    z-index: 997;
+    height: 90px;
+    background: #2c353d;
 }
 
 /*#header.header-transparent {
@@ -723,7 +724,7 @@ padding-right: 40px;
 
 
 section.create {
-    padding: 100px 0;
+    padding: 100px 0px 90px;
 }
 
 .create_img img{
@@ -742,15 +743,14 @@ margin-bottom: 25px;
 }
 
 
-.create_text p{
-font-family:'Comfortaa', cursive;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 27px;
-color: #555B61;
-padding-right: 17px;
-padding-right: 17px;
+.create_text p {
+    font-family: 'Comfortaa', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #555B61;
+    padding-left: 23px;
 }
 
 .create_text {
@@ -762,12 +762,13 @@ div#create_img2 {
 }
 
 
-.specimen{
- background:  url("../image/Mask-group2.png");
- background-size: cover;
- background-repeat: no-repeat;
- background-color:#2C353D;
- padding: 120px 0;
+.specimen {
+    background: url("../image/Mask-group2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #2C353D;
+    padding: 161px 0;
+    background-position: center;
 }
 
 .specimen_img img{
@@ -972,7 +973,7 @@ font-size: 38px;
 line-height: 42px;
 letter-spacing:0.04em;
 color: #272E35;
-    padding: 27px 0 20px 0;
+margin-bottom: 30px;
 }
 
 .centuries_headding p{
@@ -1149,11 +1150,11 @@ text-decoration: none;
 
 
 section.works_section {
-  background:  url("../image/Mask-group4.png");
- background-size: cover;
- background-repeat: no-repeat;
- background-color:#2C353D;
- padding: 120px 0;
+    background: url("../image/Mask-group4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #2C353D;
+    padding: 176px 0;
 }
 
 
@@ -1356,6 +1357,9 @@ line-height: 150%;
 color: #FFFFFF;
 }
 
+.footer-info {
+    padding-right: 20px;
+}
 
 .footer-links h4{
 font-family: 'Inter', sans-serif;

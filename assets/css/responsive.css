@@ -60,6 +60,12 @@ img{
     height: unset;
 }
 
+.create_text p {
+    padding-left: 0;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+
 section.financial {
     margin-top: -205px;
     margin-top: 0;
@@ -69,6 +75,7 @@ section.financial {
 }
 #main-brand{
     padding: 50px;
+    border-radius: 80px 0px 0px 0px;
 }
 .financial-main h2{
     font-size: 25px;
@@ -97,7 +104,7 @@ br{
     margin-bottom: 15px;
 }
 section.create {
-    padding: 50px 0;
+    padding: 60px 0;
 }
 .create_text {
     padding: 25px 0;
@@ -113,8 +120,10 @@ section.create {
     padding: 0px 0;
 }
 .specimen {
-        padding: 50px 0;
+    padding: 50px 0 20px;
+    background-position: left;
 }
+
 .specimen_text {
     margin-top: 25px;
 }
@@ -176,8 +185,8 @@ section.pricing_section {
 .pricing-card.basic {
     margin-bottom: 15px;
 }
-section.works_section{
-    padding: 50px 0;
+section.works_section {
+    padding: 70px 0px 65px;
 }
 .works_headding h2{
         font-size: 25px;
@@ -188,7 +197,6 @@ section.works_section{
 }
 #works_btn {
     padding-top: 0;
-    padding-bottom: 50px;
 }
 .qna {
     padding: 10px;
@@ -204,8 +212,7 @@ section.works_section{
     justify-content: space-between;
 }
 .footermobile {
-        display: block;
-    margin-top: 25px;
+    display: block;
 }
 .footerdektop {
     display: none;
@@ -300,6 +307,10 @@ header#header .container {
     margin-bottom: 0;
 }
 
+.financial_section {
+    margin-left: 40px;
+}
+
 .social2 {
     margin-right: 0;
 }
@@ -362,7 +373,7 @@ br{
         margin-right: 50px;
 }
 section.create {
-    padding: 50px 0;
+    padding: 100px 0px 70px;
 }
 .create_text {
     padding: 25px 0;
@@ -409,13 +420,12 @@ section.company_main {
     margin-top: 25px;
     padding: 0;
 }
-.centuries_section{
-    padding: 50px 0;
+.centuries_section {
+    padding: 100px 0;
 }
 .centuries_headding h2{
-        font-size: 25px;
+    font-size: 26px;
     line-height: 42px;
-        padding: 15px 0;
 }
 .all_button {
     display: block;
@@ -442,7 +452,7 @@ section.pricing_section {
     margin-bottom: 15px;
 }
 section.works_section{
-    padding: 50px 0;
+   padding: 96px 0px 80px;
 }
 .works_headding h2{
         font-size: 25px;
@@ -453,7 +463,6 @@ section.works_section{
 }
 #works_btn {
     padding-top: 0;
-    padding-bottom: 50px;
 }
 .qna {
     padding: 10px;
@@ -469,8 +478,7 @@ section.works_section{
     justify-content: space-between;
 }
 .footermobile {
-        display: block;
-    margin-top: 25px;
+    display: block;
 }
 .footerdektop {
     display: none;
@@ -493,7 +501,6 @@ div#footer1 {
 }
 .copyright img {
     text-align: right;
-    float: left;
     margin-bottom: 25px;
 }
 div#footer4 {
@@ -515,6 +522,9 @@ section.centuries_section .row {
     display: flex;
     align-items: center;
 }
+.corresponding {
+        margin-top: 40px !important;
+    }
 #newcenturies_section{
         margin-top: 50px;
             padding: 25px 0;

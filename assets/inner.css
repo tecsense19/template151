@@ -50,8 +50,7 @@ body {
     background: url("../assets/image/Mask-group5.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #2C353D;
-    padding: 166px 0px 187px;
+    padding: 270px 0px 187px;
     background-position: center;
 }
 
@@ -121,18 +120,32 @@ body {
     max-width: 1547px;
 }
 
+.type_specimen_text {
+    padding-right: 68px;
+}
+
 /*--------------- Platform Page End -----------*/
 
 /*--------------- Markets Page Start -----------*/
 
 .main_create {
-    max-width: 945px;
-    margin: auto;
+    padding: 100px 0px;
 }
 
 .work_width {
     max-width: 670px;
     margin: auto;
+}
+
+.protection p {
+    font-family: 'Comfortaa', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #555B61;
+    margin: 0px;
+    padding-top: 40px;
 }
 
 /*--------------- Markets Page End -----------*/
@@ -283,6 +296,7 @@ body {
 }
 
 .back_home {
+    width: 230px;
     font-size: 18px;
     font-weight: 400;
     color: #272E35;
@@ -291,6 +305,7 @@ body {
     display: inline-block;
     background: #FFC247;
     border-radius: 6px;
+    text-align: center;
 }
 
 .back_home:hover {
@@ -324,7 +339,8 @@ body {
     background-repeat: no-repeat;
     background-color: #2C353D;
     padding-top: 102px;
-    padding-bottom: 100px;
+    padding-bottom: 157px;
+    background-position: center;
 }
 
 .ensures {
@@ -411,9 +427,14 @@ body {
     padding: 10px 5px;
 }
 
+.checkbox_form {
+    display: flex;
+    align-items: center;
+    margin-top: 17px;
+}
+
 .checkbox_form input {
     width: 20px;
-    margin-top: 10px;
     height: 18px;
 }
 
@@ -421,6 +442,7 @@ body {
     font-size: 18px;
     color: #272E35;
     font-weight: 400;
+    padding-left: 10px;
 }
 
 .checkbox_form span {
@@ -429,7 +451,7 @@ body {
 
 .regiter_btn {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 34px;
 }
 
 .regiter_btn a {
@@ -443,6 +465,11 @@ body {
     margin-top: 20px;
 }
 
+.regiter_btn a:hover {
+    background: #C1BFBE;
+    color: #fff;
+}
+
 .regiter_btn button {
     background: #FFC247;
     border-radius: 6px;
@@ -453,6 +480,11 @@ body {
     display: inline-block;
     border: 0;
     margin: 0;
+}
+
+.regiter_btn button:hover {
+    background: #C1BFBE;
+    color: #fff;
 }
 
 @media (max-width: 767px){
@@ -485,13 +517,21 @@ body {
         font-size: 22px;
         text-align: start;
     }
+
+    .reverse {
+        flex-direction: column-reverse;
+    }
 }
 
 /*-------------- Contact Page -----------*/
 
 .contact_us {
     display: flex;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+}
+
+.contact_info {
+    margin-top: 57px;
 }
 
 .contact_text {
@@ -596,23 +636,39 @@ body {
 }
 
 .faqs_box {
-    border: 1px solid #FFC247;
-    border-radius: 20px;
-    padding: 24px 32px;
-    background: #fff;
-    margin-bottom: 24px;
+    width: 100%;
 }
 
-.faqs_box a {
+.faqs_box #accordionFlushExample {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-decoration: none;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
-.faqs_box span {
+.faqs_box .accordion-item {
+    width: 33%;
+    border: 0;
+    padding: 0 10px;
+    margin-bottom: 30px;
+}
+
+.faqs_box .accordion-button {
+    border: 1px solid #FFC247;
+    border-radius: 20px !important;
+    padding: 38px 32px;
     font-size: 18px;
     color: #272E35;
+}
+
+.faqs_box .accordion-button:focus {
+    border: 1px solid #FFC247;
+    box-shadow: 0 0 0 0;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #FFC247 !important;
+    background-color: var(--bs-accordion-active-bg);
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
 }
 
 /*----------- Documents page ----------*/
@@ -641,6 +697,37 @@ body {
     color: #272E35;
 }
 
+.service {
+    width: 100%;
+    height: 100vh;
+    /* position: relative; */
+    background: url("../assets/image/Group2.png");
+    background-size: cover;
+    background-color: #2C353D;
+}
+
+.service_text {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service_text h2 {
+    font-size: 38px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.service_text p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
 @media ( max-width: 1600px ){
     .centuries_img img {
         width: 100%;
@@ -648,6 +735,14 @@ body {
 
     .hero-img img {
         width: 100%;
+    }
+
+    .work_section {
+        padding: 134px 0px 187px;
+    }
+
+    .financial_section {
+        margin-left: 0;
     }
 }
 
@@ -686,17 +781,20 @@ body {
         padding: 100px 0px;
     }
 
-    .work_headding h2 {
-        font-size: 26px;
-        padding-bottom: 20px;
-    }
-
     .work_headding p {
         font-size: 16px;
     }
+
+    .faqs_box .accordion-item {
+        width: 50%;
+    }
+
+    .faqs_box .accordion-button {
+        padding: 30px 20px;
+    }
 }
 
-@media ( max-width: 767px ){
+@media ( max-width: 768px ){
     .price_box {
         margin-bottom: 30px;
     }
@@ -739,12 +837,28 @@ body {
     .work_section {
         padding: 60px 0px;
     }
+
+    .faqs_box .accordion-item {
+        width: 100%;
+    }
+
+    .type_specimen_text {
+        padding-bottom: 30px;
+        padding-right: 0;
+    }
+    .centuries_img {
+        margin-top: 57px;
+    }
+
+    .contact_us {
+        margin-bottom: 40px;
+    }
+    
 }
 
 @media ( max-width: 575px ){
     .contact_us {
         display: block;
-        margin-bottom: 50px;
     }
 
     .contact_text {
@@ -769,4 +883,35 @@ body {
     .registration_bg {
         padding-top: 20px;
     }
+
+    .work_headding h2 {
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+
+    .banner_comman {
+        padding: 110px 0px 80px;
+        background-position: right;
+        background-size: auto;
+    }
+
+    .main_create {
+        padding: 71px 0px;
+    }
+
+    .protection p {
+        padding-top: 20px;
+    }
+
+    section.works_section{
+        padding: 70px 0px 65px;
+    }
+
+    .banner_comman_text h2 {
+        font-size: 30px;
+    }
+    .registration_headding {
+        margin-bottom: 30px;
+    }
+    
 }
